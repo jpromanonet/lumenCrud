@@ -8,7 +8,7 @@ class LibroController extends Controller{
 
     public function index(){
 
-        $datosLibro = Libro::all();
+        $datosLibro = Libros::all();
 
         return response()->json($datosLibro);
         
