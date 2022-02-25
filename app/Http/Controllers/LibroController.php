@@ -6,7 +6,7 @@ use App\Models\Libros;
 
 class LibroController extends Controller{
 
-    // Esta función trae todos los libros de la base de datos.
+    // Esta función trae todos los libros de la base de datos y los muestra en un JSON.
     public function index(){
 
         $datosLibro = Libros::all();
